@@ -1,0 +1,62 @@
+.LogIn{
+    background-image: url(img/register.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.LogIn h2{
+    font-size: 3.8rem;
+    padding: 0.5rem;
+    display: inline-block;
+    color: yellowgreen;
+    border-bottom: .3rem solid yellowgreen;
+    margin-bottom: 2.2rem;
+}
+.LogIn form{
+    padding: 2% 6%;
+    margin: 0 auto;
+}
+
+.LogIn form .row input{
+    height: 10px;
+    width: 40%;
+    background-color: transparent;
+    color: #ddd;
+    padding: 3rem 1rem;
+    margin: 1rem 0;
+    font-size: 2rem;
+    border: 1px solid #ddd;
+}
+.logo2{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    font-size: 1.8em;
+    color: white;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.lien{
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+    color: #ddd;
+    padding-left: 170px;
+    text-decoration: underline;
+}
+.button{
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border: 0.3rem solid yellowgreen;
+    color: yellowgreen;
+    margin-top: 4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+}
+.button:hover{
+    background-color: yellowgreen;
+    color: white;
+}

@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulaire de pré-inscription</title>
+        <link rel="stylesheet" href="style_inscri.css">
+    </head>
+    <body>
+        <form action="insert.php" method="post">
+            <h4>Inscrivez-vous</h4>
+            <table>
+                <tr>
+                    <td>Nom :</td>
+                    <td><input type="text" name="nom" value=""></td>
+                </tr>
+                <tr>
+                    <td>Prénom :</td>
+                    <td><input type="text" name="prenom" value=""></td>
+                </tr>
+                <tr>
+                    <td>Date de naissance :</td>
+                    <td><input type="date" name="date_naissance" value=""></td>
+                </tr>
+                <tr>
+                    <td>Adresse :</td>
+                    <td><input type="text" name="adresse" value=""></td>
+                </tr>
+                <tr>
+                    <td>N° téléphone :</td>
+                    <td><input type="tel" name="tel" value=""></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" name="email" value=""></td>
+                </tr>
+                <tr>
+                <td><label for="password"> mot de passe :</label></td>
+                <td><input type="password" id="password" name="password" placeholder="mot de passe ici"></td>
+                </tr>
+                <tr>
+                <td><label for="confirm-password">Confirmez votre Mot de passe :</label></td>
+                <td><input type="password" id="confirm-password" placeholder="Confirmez votre mot de passe ici"></td>
+                <td><p id="message"></p></td>
+                </tr>
+                <tr>
+                    <td>Sexe :</td>
+                    <td id="sexe">
+                        Homme  <input type="radio" name="gender" value="H">
+                        Femme  <input type="radio" name="gender" value="F">
+                    </td>
+                </tr>
+               <tr>
+                <td><input type="submit" id="button" name="Valider" onclick="checkPassword()" value="Valider"/></td>
+                <td><input type="reset" id="button" value="Supprimer"></td>
+                
+            </tr>
+            
+        </form>
+        <script src="inscri.js"></script>
+    </body>
+</html>
